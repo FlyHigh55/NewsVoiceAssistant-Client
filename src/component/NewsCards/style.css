@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;300;500&family=Rubik:wght@300;400;500&display=swap');
+*{
+    font-family: 'Outfit', sans-serif;
+}
+.main-container{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-width: 100vw;
+}
+.cart-container{
+    display: block;
+    position: relative;
+    padding: 1%;
+    border-radius: 5px;
+    top: 0;
+    width: 20%;
+    height: auto;
+    margin:2%;
+    background-color: rgb(246, 176, 66);
+    color: black;
+} 
+
+h5{
+    font-size: 1.5em;
+}
+h6{
+    font-size: 1em;
+    font-weight: 100;
+    margin-top: 10px;
+}
+@media screen and (min-width: 700px) {
+    .cart-container{
+        max-width: 800px;
+        min-width: 400px;
+    } 
+}
+
+.cart-container-content{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.help , h6{
+    font-weight: 400;   
+}

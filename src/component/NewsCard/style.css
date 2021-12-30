@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;300;500&family=Rubik:wght@300;400;500&display=swap');
+*{
+    font-family: 'Outfit', sans-serif;
+
+}
+.cart-container img{
+    width: 100%;
+}
+.redirect-link{
+    visibility: hidden;
+}
+.learnMore{
+    position: absolute;
+    height:35px;
+    border-radius: 17.5px;
+    border:2px solid black;
+    right: 40%;
+    bottom: 10px;
+}
+.cart-container{
+    display: block;
+    position: relative;
+    padding: 1%;
+    border-radius: 5px;
+    top: 0;
+    width: 200px;
+    height: auto;
+    margin:2%;
+    background-color: rgb(14, 13, 13) !important;
+    color: #e7e3d8 !important;
+} 
+.cart-container p{  
+    font-weight: 600;
+}
+h2{
+    font-size: 1.3em;
+}
+h5{
+    font-size: 1.5em;
+}
+h6,p{
+    font-size: 1em;
+    font-weight: 100;
+    margin-top: 10px;
+}
+
+.img{
+    border-radius: 5px;
+}
